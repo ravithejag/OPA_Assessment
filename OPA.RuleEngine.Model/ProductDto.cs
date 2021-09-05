@@ -12,5 +12,6 @@ namespace OPA.RuleEngine.Model
         public string Description { get; set; }
 
         public bool IsPaymentRequired { get; set; }
+
     }
 }

@@ -19,6 +19,9 @@
       "OPA.RuleEngine.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/OPA.RuleEngine.DataAccess.dll": {}
         },

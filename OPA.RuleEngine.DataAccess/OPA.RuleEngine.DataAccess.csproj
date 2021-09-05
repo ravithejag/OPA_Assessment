@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Manager\" />
+    <ProjectReference Include="..\OPA.RuleEngine.Model\OPA.RuleEngine.Model.csproj" />
   </ItemGroup>
 
 </Project>

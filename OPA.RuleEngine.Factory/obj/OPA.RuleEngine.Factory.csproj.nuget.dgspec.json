@@ -88,7 +88,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Practice\\Assessment_OPA\\OPA_Assessment\\OPA.RuleEngine.Model\\OPA.RuleEngine.Model.csproj": {
+                "projectPath": "D:\\Practice\\Assessment_OPA\\OPA_Assessment\\OPA.RuleEngine.Model\\OPA.RuleEngine.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
