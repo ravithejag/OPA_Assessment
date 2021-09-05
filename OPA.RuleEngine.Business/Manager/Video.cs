@@ -22,6 +22,7 @@ namespace OPA.RuleEngine.Business.Manager
                 response.Message = "An Free First Aid video has been added to the order";
             }
             response.OrderId = _random.Next(0, 99999);
+            response.TotalCost = orderDetails.Cost * orderDetails.Quantity;
             return await Task.FromResult<Response>(response);
         }
     }

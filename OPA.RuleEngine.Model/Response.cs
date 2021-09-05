@@ -7,7 +7,7 @@ namespace OPA.RuleEngine.Model
         /// <summary>
         /// Code
         /// </summary>
-        public string Code { get; set; }
+        public double TotalCost { get; set; }
 
         /// <summary>
         /// Message

@@ -62,6 +62,7 @@ namespace OPA.RuleEngine.UI
             {
                 Console.WriteLine($"Product Name =  {orderRequest.Name}");
                 Console.WriteLine($"Quantity     =  {orderRequest.Quantity}");
+                Console.WriteLine($"Cost         =  {orderRequest.Cost}");
             }
             else
             {
@@ -78,6 +79,7 @@ namespace OPA.RuleEngine.UI
                 Console.WriteLine("================================================================");
                 Console.WriteLine($"ORDER ID - {response.OrderId}");
             }
+            Console.WriteLine($"Order Cost - {response.TotalCost}");
             if (!string.IsNullOrEmpty(response.Message))
             {
                 Console.WriteLine(response.Message);

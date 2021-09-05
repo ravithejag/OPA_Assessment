@@ -1634,6 +1634,57 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "OPA.RuleEngine.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OPA.RuleEngine.DataAccess": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OPA.RuleEngine.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OPA.RuleEngine.Business.dll": {}
+        }
+      },
+      "OPA.RuleEngine.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OPA.RuleEngine.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OPA.RuleEngine.DataAccess.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OPA.RuleEngine.Business": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OPA.RuleEngine.Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OPA.RuleEngine.Factory.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OPA.RuleEngine.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OPA.RuleEngine.Model.dll": {}
+        }
       }
     }
   },
@@ -5705,6 +5756,26 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "OPA.RuleEngine.Business/1.0.0": {
+      "type": "project",
+      "path": "../OPA.RuleEngine.Business/OPA.RuleEngine.Business.csproj",
+      "msbuildProject": "../OPA.RuleEngine.Business/OPA.RuleEngine.Business.csproj"
+    },
+    "OPA.RuleEngine.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../OPA.RuleEngine.DataAccess/OPA.RuleEngine.DataAccess.csproj",
+      "msbuildProject": "../OPA.RuleEngine.DataAccess/OPA.RuleEngine.DataAccess.csproj"
+    },
+    "OPA.RuleEngine.Factory/1.0.0": {
+      "type": "project",
+      "path": "../OPA.RuleEngine.Factory/OPA.RuleEngine.Factory.csproj",
+      "msbuildProject": "../OPA.RuleEngine.Factory/OPA.RuleEngine.Factory.csproj"
+    },
+    "OPA.RuleEngine.Model/1.0.0": {
+      "type": "project",
+      "path": "../OPA.RuleEngine.Model/OPA.RuleEngine.Model.csproj",
+      "msbuildProject": "../OPA.RuleEngine.Model/OPA.RuleEngine.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5712,6 +5783,8 @@
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "OPA.RuleEngine.Factory >= 1.0.0",
+      "OPA.RuleEngine.Model >= 1.0.0",
       "coverlet.collector >= 1.2.0"
     ]
   },
@@ -5741,7 +5814,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Practice\\Assessment_OPA\\OPA_Assessment\\OPA.RuleEngine.Factory\\OPA.RuleEngine.Factory.csproj": {
+              "projectPath": "D:\\Practice\\Assessment_OPA\\OPA_Assessment\\OPA.RuleEngine.Factory\\OPA.RuleEngine.Factory.csproj"
+            },
+            "D:\\Practice\\Assessment_OPA\\OPA_Assessment\\OPA.RuleEngine.Model\\OPA.RuleEngine.Model.csproj": {
+              "projectPath": "D:\\Practice\\Assessment_OPA\\OPA_Assessment\\OPA.RuleEngine.Model\\OPA.RuleEngine.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

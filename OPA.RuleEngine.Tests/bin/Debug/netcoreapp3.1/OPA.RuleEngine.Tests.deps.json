@@ -11,6 +11,8 @@
           "MSTest.TestAdapter": "2.1.0",
           "MSTest.TestFramework": "2.1.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
+          "OPA.RuleEngine.Factory": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0",
           "coverlet.collector": "1.2.0"
         },
         "runtime": {
@@ -1069,6 +1071,37 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "OPA.RuleEngine.Business/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.DataAccess": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "OPA.RuleEngine.Business.dll": {}
+        }
+      },
+      "OPA.RuleEngine.DataAccess/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "OPA.RuleEngine.DataAccess.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Factory/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Business": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "OPA.RuleEngine.Factory.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Model/1.0.0": {
+        "runtime": {
+          "OPA.RuleEngine.Model.dll": {}
+        }
       }
     }
   },
@@ -1686,6 +1719,26 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "OPA.RuleEngine.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -32,7 +32,7 @@ namespace OPA.RuleEngine.Business.Manager
             }
             Console.WriteLine("*********************************************************************");
 
-            return await Task.FromResult<Response>(new Response { IsSuccess = true, OrderId = _random.Next(99, 99999) });
+            return await Task.FromResult<Response>(new Response { IsSuccess = true, OrderId = _random.Next(99, 99999), TotalCost = orderDetails.Cost });
         }
     }
 }

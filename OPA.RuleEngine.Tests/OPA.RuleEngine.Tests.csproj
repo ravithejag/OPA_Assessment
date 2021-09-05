@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OPA.RuleEngine.Factory\OPA.RuleEngine.Factory.csproj" />
+    <ProjectReference Include="..\OPA.RuleEngine.Model\OPA.RuleEngine.Model.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -37,6 +37,9 @@ namespace OPA.RuleEngine.UI
                 orderRequest.Quantity = Convert.ToInt32(Console.ReadLine());
             }
 
+            Console.WriteLine("Please enter the Product Cost: ");
+            orderRequest.Cost = Convert.ToDouble(Console.ReadLine());
+
             if (selectedProduct.IsPaymentRequired)
             {
                 var paymentDetails = dataAccess.GetPaymentTypes();
@@ -44,7 +47,7 @@ namespace OPA.RuleEngine.UI
                 orderRequest.PaymentDetails = new PaymentDto();
                 orderRequest.PaymentDetails.Id = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"Please enter the {paymentDetails.Find(x=>x.Id== orderRequest.PaymentDetails.Id).Type} Details ");
+                Console.WriteLine($"Please enter the {paymentDetails.Find(x => x.Id == orderRequest.PaymentDetails.Id).Type} Details ");
                 orderRequest.PaymentDetails.TypeDetails = Console.ReadLine();
             }
 
