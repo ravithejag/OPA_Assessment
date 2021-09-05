@@ -2,8 +2,6 @@
 using OPA.RuleEngine.Business.Manager;
 using OPA.RuleEngine.Model;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OPA.RuleEngine.Factory
 {

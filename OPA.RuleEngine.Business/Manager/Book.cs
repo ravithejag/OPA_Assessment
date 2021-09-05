@@ -1,8 +1,6 @@
 ﻿using OPA.RuleEngine.Business.Interface;
 using OPA.RuleEngine.Model;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace OPA.RuleEngine.Business.Manager
@@ -15,6 +13,11 @@ namespace OPA.RuleEngine.Business.Manager
         {
             orderDetails = orderRequest;
         }
+
+        /// <summary>
+        /// Process Order - Book Type
+        /// </summary>
+        /// <returns></returns>
         public async Task<Response> ProcessOrder()
         {
             Console.WriteLine("---------------------------------------------------------------");

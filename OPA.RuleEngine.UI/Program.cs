@@ -22,7 +22,7 @@ namespace OPA.RuleEngine.UI
 
             if (selectedProduct.IsMembershipType)
             {
-                var memberShipDetails = dataAccess.GetMemberShipDetails();
+                var memberShipDetails = dataAccess.GetMembershipDetails();
                 DataViewer.DisplayMemberShipDetails(memberShipDetails);
                 orderRequest.MembershipDetails = new MembershipDto();
                 orderRequest.MembershipDetails.Id = Convert.ToInt32(Console.ReadLine());

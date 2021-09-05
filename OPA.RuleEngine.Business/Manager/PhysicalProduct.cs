@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using OPA.RuleEngine.Business.Interface;
+﻿using OPA.RuleEngine.Business.Interface;
 using OPA.RuleEngine.Model;
+using System;
 using System.Threading.Tasks;
+
 namespace OPA.RuleEngine.Business.Manager
 {
     public class PhysicalProduct : IOrder
@@ -15,6 +14,10 @@ namespace OPA.RuleEngine.Business.Manager
             orderDetails = orderRequest;
         }
 
+        /// <summary>
+        /// Process Order - Physicsl Product
+        /// </summary>
+        /// <returns></returns>
         public async Task<Response> ProcessOrder()
         {
             bool isPaymentSuccess = Payment.ProcessOrderPayment(orderDetails);

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OPA.RuleEngine.Model
+﻿namespace OPA.RuleEngine.Model
 {
-  public  class OrderRequestDto
+    public  class OrderRequestDto
     {
         public string Name { get; set; }
         public double Cost { get; set; }

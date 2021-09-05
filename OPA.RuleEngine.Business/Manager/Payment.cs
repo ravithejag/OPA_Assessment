@@ -1,19 +1,24 @@
-﻿using OPA.RuleEngine.Business.Interface;
-using OPA.RuleEngine.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OPA.RuleEngine.Model;
 
 namespace OPA.RuleEngine.Business.Manager
 {
     public class Payment
     {
+        /// <summary>
+        /// Process payment for the order
+        /// </summary>
+        /// <param name="orderDetails"></param>
+        /// <returns></returns>
         public static bool ProcessOrderPayment(OrderRequestDto orderDetails)
         {
             return true;
         }
 
+        /// <summary>
+        /// Agent Commission payment
+        /// </summary>
+        /// <param name="orderDetails"></param>
+        /// <returns></returns>
         public static  bool ProcessCommissionPayment(OrderRequestDto orderDetails)
         {
             return true;

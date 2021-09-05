@@ -8,7 +8,7 @@ namespace OPA.RuleEngine.DataAccess.Manager
 {
     public class DataAccess : IDataAccess
     {
-        public List<MembershipDto> GetMemberShipDetails()
+        public List<MembershipDto> GetMembershipDetails()
         {
             return new List<MembershipDto>
             {

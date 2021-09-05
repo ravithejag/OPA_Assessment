@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using OPA.RuleEngine.Business.Interface;
+﻿using OPA.RuleEngine.Business.Interface;
 using OPA.RuleEngine.Model;
+using System;
 using System.Threading.Tasks;
 
 namespace OPA.RuleEngine.Business.Manager
@@ -15,6 +13,11 @@ namespace OPA.RuleEngine.Business.Manager
         {
             orderDetails = orderRequest;
         }
+
+        /// <summary>
+        /// Process Order - Membership -Activation/Upgrade
+        /// </summary>
+        /// <returns></returns>
         public async Task<Response> ProcessOrder()
         {
             var memberShipId = orderDetails?.MembershipDetails?.Id;

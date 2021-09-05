@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using OPA.RuleEngine.Business.Interface;
-using OPA.RuleEngine.Model;
+﻿using OPA.RuleEngine.Model;
+
 namespace OPA.RuleEngine.Business.Manager
 {
     public class EmailManager
     {
+        /// <summary>
+        /// Send mail to the owner
+        /// </summary>
+        /// <param name="emailDto"></param>
+        /// <returns></returns>
         public static bool SendMail(EmailDto emailDto)
         {
             return true;

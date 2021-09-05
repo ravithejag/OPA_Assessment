@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using OPA.RuleEngine.Business.Interface;
+﻿using OPA.RuleEngine.Business.Interface;
 using OPA.RuleEngine.Model;
+using System;
 using System.Threading.Tasks;
+
 namespace OPA.RuleEngine.Business.Manager
 {
-   public class Video : IOrder
+    public class Video : IOrder
     {
         private readonly OrderRequestDto orderDetails;
         private readonly Random _random = new Random();
@@ -14,6 +13,11 @@ namespace OPA.RuleEngine.Business.Manager
         {
             orderDetails = orderRequest;
         }
+
+        /// <summary>
+        /// Process Order - Video Type
+        /// </summary>
+        /// <returns></returns>
         public async Task<Response> ProcessOrder()
         {
             Response response = new Response { IsSuccess = true };

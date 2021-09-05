@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OPA.RuleEngine.Model
+﻿namespace OPA.RuleEngine.Model
 {
     public class Response
     {
