@@ -4,14 +4,9 @@ using System.Text;
 
 namespace OPA.RuleEngine.Model
 {
-  public  class OrderRequestDto
+    public class Membership
     {
         public int Id { get; set; }
-
         public string Name { get; set; }
-        public int Quantity { get; set; }
-
-        public PaymentDto PaymentDetails { get; set; }
-        public Membership MembershipDetails { get; set; }
     }
 }

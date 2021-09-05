@@ -18,5 +18,10 @@ namespace OPA.RuleEngine.Model
         /// Status of the response
         /// </summary>
         public bool IsSuccess { get; set; }
+
+        /// <summary>
+        /// Order Id
+        /// </summary>
+        public int OrderId { get; set; }
     }
 }

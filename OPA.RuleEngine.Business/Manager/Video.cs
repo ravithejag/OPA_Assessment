@@ -13,7 +13,7 @@ namespace OPA.RuleEngine.Business.Manager
         {
             orderDetails = orderRequest;
         }
-        public Task<Response> ProcessOrder()
+        public async Task<Response> ProcessOrder()
         {
             throw new NotImplementedException();
         }

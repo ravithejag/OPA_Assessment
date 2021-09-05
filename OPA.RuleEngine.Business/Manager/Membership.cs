@@ -10,13 +10,29 @@ namespace OPA.RuleEngine.Business.Manager
     public class Membership : IOrder
     {
         private readonly OrderRequestDto orderDetails;
+
         public Membership(OrderRequestDto orderRequest)
         {
             orderDetails = orderRequest;
         }
-        public Task<Response> ProcessOrder()
+        public async Task<Response> ProcessOrder()
         {
-            throw new NotImplementedException();
+            var memberShipId = orderDetails?.MembershipDetails?.Id;
+            var memberShipType = (memberShipId == 1) ? "Activation" : "Upgrade";
+            bool isPaymentSuccess = EmailManager.SendMail(new EmailDto());
+            Console.WriteLine("*********************************************************************");
+            if (isPaymentSuccess)
+            {
+
+                Console.WriteLine("An Email has been triggered to the owner Informing about the membership " + memberShipType);
+            }
+            else
+            {
+                Console.WriteLine("Error in sending Email to the owner Informing about the membership " + memberShipType);
+            }
+            Console.WriteLine("*********************************************************************");
+
+            return await Task.FromResult<Response>(new Response { IsSuccess = true });
         }
     }
 }

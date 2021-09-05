@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace OPA.RuleEngine.Business.Manager
 {
-    public class Payment : IPayment
+    public class Payment
     {
-        public Task<bool> ProcessPayment(OrderRequestDto orderDetails)
+        public static  bool ProcessCommissionPayment(OrderRequestDto orderDetails)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

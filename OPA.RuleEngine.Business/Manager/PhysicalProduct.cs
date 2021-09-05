@@ -9,13 +9,27 @@ namespace OPA.RuleEngine.Business.Manager
     public class PhysicalProduct : IOrder
     {
         private readonly OrderRequestDto orderDetails;
+        private readonly Random _random = new Random();
         public PhysicalProduct(OrderRequestDto orderRequest)
         {
             orderDetails = orderRequest;
         }
-        public Task<Response> ProcessOrder()
+
+        public async Task<Response> ProcessOrder()
         {
-            throw new NotImplementedException();
+            bool isPaymentSuccess = Payment.ProcessCommissionPayment(orderDetails);
+            Console.WriteLine("*********************************************************************");
+            if (isPaymentSuccess)
+            {
+                Console.WriteLine("Payment Has been Processed Successfully to the Agent");
+            }
+            else
+            {
+                Console.WriteLine(" Error in processing payment to the Agent");
+            }
+            Console.WriteLine("*********************************************************************");
+
+            return await Task.FromResult<Response>(new Response { IsSuccess = true, OrderId = _random.Next(99, 99999) });
         }
     }
 }
