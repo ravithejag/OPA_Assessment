@@ -1,0 +1,5 @@
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.Business\obj\Debug\netcoreapp3.1\OPA.RuleEngine.Business.csproj.AssemblyReference.cache
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.Business\obj\Debug\netcoreapp3.1\OPA.RuleEngine.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.Business\obj\Debug\netcoreapp3.1\OPA.RuleEngine.Business.AssemblyInfoInputs.cache
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.Business\obj\Debug\netcoreapp3.1\OPA.RuleEngine.Business.AssemblyInfo.cs
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.Business\obj\Debug\netcoreapp3.1\OPA.RuleEngine.Business.csproj.CoreCompileInputs.cache

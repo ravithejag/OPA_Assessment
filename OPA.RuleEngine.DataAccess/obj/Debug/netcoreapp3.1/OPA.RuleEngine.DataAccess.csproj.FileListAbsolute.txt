@@ -1,0 +1,10 @@
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\bin\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.deps.json
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\bin\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.dll
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\bin\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.pdb
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.csproj.AssemblyReference.cache
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.AssemblyInfoInputs.cache
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.AssemblyInfo.cs
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.csproj.CoreCompileInputs.cache
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.dll
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.pdb
