@@ -63,9 +63,7 @@ namespace OPA.RuleEngine.UI
             }
             else
             {
-                Console.WriteLine("================================================================");
-                Console.WriteLine("Error in processing the Order.Please try again");
-                Console.WriteLine("================================================================");
+                DataViewer.OrderProcessFailure();
             }
 
             Console.ReadLine();

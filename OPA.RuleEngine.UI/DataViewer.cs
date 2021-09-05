@@ -45,11 +45,8 @@ namespace OPA.RuleEngine.UI
             Console.WriteLine("---------------------------------------------------------------");
         }
 
-        internal static void GeneratePackagingSlip(OrderRequestDto orderRequest, Response response)
+        public static void GeneratePackagingSlip(OrderRequestDto orderRequest, Response response)
         {
-            //Console.WriteLine("================================================================");
-            //Console.WriteLine("================================================================");
-
             Console.WriteLine("/////////////////////////////////////////////////////////////////");
             Console.WriteLine("================================================================");
             Console.WriteLine("=== PACKAGING SLIP ==");
@@ -85,6 +82,13 @@ namespace OPA.RuleEngine.UI
             }
             Console.WriteLine("================================================================");
             Console.WriteLine("/////////////////////////////////////////////////////////////////");
+        }
+
+        public static void OrderProcessFailure()
+        {
+            Console.WriteLine("================================================================");
+            Console.WriteLine("Error in processing the Order.Please try again");
+            Console.WriteLine("================================================================");
         }
     }
 }
