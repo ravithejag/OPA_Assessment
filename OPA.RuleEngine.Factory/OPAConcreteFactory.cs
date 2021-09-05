@@ -17,7 +17,7 @@ namespace OPA.RuleEngine.Factory
         public override IOrder GetOrderPaymentType(OrderRequestDto orderRequest)
         {
             IOrder order;
-            switch (orderRequest.Id)
+            switch (orderRequest.ProductDetails.Id)
             {
                 case 1:
                     order = new PhysicalProduct(orderRequest);
@@ -28,11 +28,11 @@ namespace OPA.RuleEngine.Factory
                 case 3:
                     order = new Membership(orderRequest);
                     break;
-                case 5:
+                case 4:
                     order = new Video(orderRequest);
                     break;
                 default:
-                    throw new ApplicationException("Error in processing the payment, Please try again");
+                    throw new ApplicationException("Error in processing the oredr, Please try again");
                     ///break;
             }
             return order;

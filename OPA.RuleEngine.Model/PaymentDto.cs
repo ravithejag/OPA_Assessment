@@ -8,5 +8,6 @@ namespace OPA.RuleEngine.Model
     {
         public int Id { get; set; }
         public string Type { get; set; }
+        public string TypeDetails { get; set; }
     }
 }

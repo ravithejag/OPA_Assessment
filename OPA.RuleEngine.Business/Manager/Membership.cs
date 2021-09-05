@@ -10,7 +10,7 @@ namespace OPA.RuleEngine.Business.Manager
     public class Membership : IOrder
     {
         private readonly OrderRequestDto orderDetails;
-
+        private readonly Random _random = new Random();
         public Membership(OrderRequestDto orderRequest)
         {
             orderDetails = orderRequest;
@@ -32,7 +32,7 @@ namespace OPA.RuleEngine.Business.Manager
             }
             Console.WriteLine("*********************************************************************");
 
-            return await Task.FromResult<Response>(new Response { IsSuccess = true });
+            return await Task.FromResult<Response>(new Response { IsSuccess = true, OrderId = _random.Next(99, 99999) });
         }
     }
 }

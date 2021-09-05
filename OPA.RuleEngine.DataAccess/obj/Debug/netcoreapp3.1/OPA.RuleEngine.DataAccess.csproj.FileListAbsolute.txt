@@ -8,3 +8,6 @@ D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\ne
 D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.csproj.CoreCompileInputs.cache
 D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.dll
 D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.pdb
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\bin\Debug\netcoreapp3.1\OPA.RuleEngine.Model.dll
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\bin\Debug\netcoreapp3.1\OPA.RuleEngine.Model.pdb
+D:\Practice\Assessment_OPA\OPA_Assessment\OPA.RuleEngine.DataAccess\obj\Debug\netcoreapp3.1\OPA.RuleEngine.DataAccess.csproj.CopyComplete

@@ -13,5 +13,6 @@ namespace OPA.RuleEngine.Model
 
         public bool IsPaymentRequired { get; set; }
 
+        public bool IsMembershipType { get; set; }
     }
 }

@@ -7,14 +7,70 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "OPA.RuleEngine.UI/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Business": "1.0.0",
+          "OPA.RuleEngine.Factory": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
         "runtime": {
           "OPA.RuleEngine.UI.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Business/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.DataAccess": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "OPA.RuleEngine.Business.dll": {}
+        }
+      },
+      "OPA.RuleEngine.DataAccess/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "OPA.RuleEngine.DataAccess.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Factory/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Business": "1.0.0",
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "OPA.RuleEngine.Factory.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Model/1.0.0": {
+        "runtime": {
+          "OPA.RuleEngine.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OPA.RuleEngine.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

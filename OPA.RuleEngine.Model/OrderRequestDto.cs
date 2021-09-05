@@ -6,11 +6,10 @@ namespace OPA.RuleEngine.Model
 {
   public  class OrderRequestDto
     {
-        public int Id { get; set; }
-
         public string Name { get; set; }
         public int Quantity { get; set; }
 
+        public ProductDto ProductDetails { get; set; }
         public PaymentDto PaymentDetails { get; set; }
         public MembershipDto MembershipDetails { get; set; }
     }

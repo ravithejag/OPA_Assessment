@@ -9,7 +9,7 @@ namespace OPA.RuleEngine.DataAccess.Interface
     {
         List<ProductDto> GetProductDetails();
 
-        List<MembershipDto> GetMAmberShipDetails();
+        List<MembershipDto> GetMemberShipDetails();
 
         List<PaymentDto> GetPaymentTypes();
     }

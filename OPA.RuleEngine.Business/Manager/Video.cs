@@ -9,13 +9,20 @@ namespace OPA.RuleEngine.Business.Manager
    public class Video : IOrder
     {
         private readonly OrderRequestDto orderDetails;
+        private readonly Random _random = new Random();
         public Video(OrderRequestDto orderRequest)
         {
             orderDetails = orderRequest;
         }
         public async Task<Response> ProcessOrder()
         {
-            throw new NotImplementedException();
+            Response response = new Response { IsSuccess = true };
+            if(orderDetails.Name.Equals("Learning to Ski"))
+            {
+                response.Message = "An Free First Aid video has been added to the order";
+            }
+            response.OrderId = _random.Next(0, 99999);
+            return await Task.FromResult<Response>(response);
         }
     }
 }

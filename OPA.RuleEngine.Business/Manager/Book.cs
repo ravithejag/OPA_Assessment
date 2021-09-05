@@ -17,11 +17,20 @@ namespace OPA.RuleEngine.Business.Manager
         }
         public async Task<Response> ProcessOrder()
         {
-            bool isPaymentSuccess = Payment.ProcessCommissionPayment(orderDetails);
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("An Duplicate packing slip for the royalty department");
+
+            bool isPaymentSuccess = Payment.ProcessOrderPayment(orderDetails);
+
             Console.WriteLine("*********************************************************************");
             if (isPaymentSuccess)
             {
                 Console.WriteLine("Payment Has been Processed Successfully to the Agent");
+                bool isCOmmissionPaymentSuccess = Payment.ProcessCommissionPayment(orderDetails);
+                if (isCOmmissionPaymentSuccess)
+                {
+                    Console.WriteLine("Commission has been paid to the Agent");
+                }
             }
             else
             {

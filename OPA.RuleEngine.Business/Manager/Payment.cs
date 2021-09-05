@@ -9,6 +9,11 @@ namespace OPA.RuleEngine.Business.Manager
 {
     public class Payment
     {
+        public static bool ProcessOrderPayment(OrderRequestDto orderDetails)
+        {
+            return true;
+        }
+
         public static  bool ProcessCommissionPayment(OrderRequestDto orderDetails)
         {
             return true;

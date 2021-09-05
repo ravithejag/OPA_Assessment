@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "OPA.RuleEngine.DataAccess/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
         "runtime": {
           "OPA.RuleEngine.DataAccess.dll": {}
+        }
+      },
+      "OPA.RuleEngine.Model/1.0.0": {
+        "runtime": {
+          "OPA.RuleEngine.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OPA.RuleEngine.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OPA.RuleEngine.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

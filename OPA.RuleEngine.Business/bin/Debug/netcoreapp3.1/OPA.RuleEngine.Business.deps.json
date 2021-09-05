@@ -16,6 +16,9 @@
         }
       },
       "OPA.RuleEngine.DataAccess/1.0.0": {
+        "dependencies": {
+          "OPA.RuleEngine.Model": "1.0.0"
+        },
         "runtime": {
           "OPA.RuleEngine.DataAccess.dll": {}
         }
