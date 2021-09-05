@@ -12,6 +12,6 @@ namespace OPA.RuleEngine.Model
         public int Quantity { get; set; }
 
         public PaymentDto PaymentDetails { get; set; }
-        public Membership MembershipDetails { get; set; }
+        public MembershipDto MembershipDetails { get; set; }
     }
 }
