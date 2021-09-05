@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OPA.RuleEngine.Model
 {
-    public class Product
+    public class ProductDto
     {
         public int Id { get; set; }
 

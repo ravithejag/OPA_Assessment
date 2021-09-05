@@ -6,15 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "OPA.RuleEngine.Factory/1.0.0": {
-        "dependencies": {
-          "OPA.RuleEngine.Business": "1.0.0",
-          "OPA.RuleEngine.Model": "1.0.0"
-        },
-        "runtime": {
-          "OPA.RuleEngine.Factory.dll": {}
-        }
-      },
       "OPA.RuleEngine.Business/1.0.0": {
         "dependencies": {
           "OPA.RuleEngine.DataAccess": "1.0.0",
@@ -37,11 +28,6 @@
     }
   },
   "libraries": {
-    "OPA.RuleEngine.Factory/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "OPA.RuleEngine.Business/1.0.0": {
       "type": "project",
       "serviceable": false,

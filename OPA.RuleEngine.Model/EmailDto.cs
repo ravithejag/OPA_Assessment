@@ -4,9 +4,7 @@ using System.Text;
 
 namespace OPA.RuleEngine.Model
 {
-   public class Payment
+  public  class EmailDto
     {
-        public int Id { get; set; }
-        public string Type { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace OPA.RuleEngine.Business.Interface
 {
   public  interface IPayment
     {
-        Task<Response> ProcessOrder(OrderRequest orderDetails);
+        Task<bool> ProcessPayment(OrderRequestDto orderDetails);
     }
 }
